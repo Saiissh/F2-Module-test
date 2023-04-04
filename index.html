@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="project">
+        <h2>Student management CRUD</h2>
+        <div class="students-details">
+            <div>
+                <input type="text" placeholder="Name" id="student-name">
+            </div>
+            <div>
+                <input type="email" placeholder="Email" id="student-email">
+            </div>
+            <div>
+                <input type="number" placeholder="CGPA" id="student-cgpa">
+            </div>
+            <div>
+                <input type="number" placeholder="Age" id="student-age">
+            </div>
+            <div>
+                <input type="text" placeholder="Degree" id="student-degree">
+            </div>
+        </div>
+        <button id="addstudent">Add Student</button>
+        <button id="updatestudent" style="display: none;">Update Student</button>
+
+        <div id="total" >
+            <input id="search-students" type="text" placeholder="Search By Name , email , degree">
+        
+
+        <table >
+
+           <thead>
+               <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>CGPA</th>
+                <th>Degree</th>
+                <th>Delete/Edit</th>
+
+               </tr>
+            </thead>
+            <tbody id="student-table">
+
+            </tbody>
+            </table>
+        </div>  
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

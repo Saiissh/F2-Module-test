@@ -1,0 +1,86 @@
+*{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+
+}
+
+.project{
+
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    /* width: 90%; */
+    border: 2px solid white;
+    padding:20px
+}
+
+.students-details{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    /* gap: 20px; */
+}
+
+#addstudent{
+    align-self: flex-start;
+}
+
+input{
+    padding: 10px;
+    width: 80%;
+    margin: 20px;
+    color: white;
+    border: 1px solid white;
+}
+
+button{
+    width: 40%;
+    padding: 10px;margin-left: 20px;
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+}
+
+th,tr,td{
+    border: 1px solid white;
+    /* margin: 20px 10px; */
+    padding: 5px;
+    text-align: center; 
+    /* border-spacinsg: 0; */
+
+}
+
+h2{
+    margin:20px;
+}
+
+ table{
+    border-collapse:collapse;
+    height: auto;
+    margin: auto;
+    width: 96%;
+    border: 1px solid white;
+    /* border: 2px solid red; */
+    /* min-height: 200px; */
+    overflow-x: 0;
+ }
+ tbody{
+    height: auto;
+ }
+
+ #search-students {
+    width: 95%;
+    border: 2px solid white;
+ }
+
+.deletebtn,.editbtn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    /* width: 90px; */
+}
